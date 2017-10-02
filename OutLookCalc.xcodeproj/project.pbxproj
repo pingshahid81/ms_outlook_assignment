@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7AD83A11F82029000C67EA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AD83A01F82029000C67EA4 /* main.m */; };
+		F7AD83A41F82029000C67EA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AD83A31F82029000C67EA4 /* AppDelegate.m */; };
+		F7AD83A71F82029000C67EA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AD83A61F82029000C67EA4 /* ViewController.m */; };
+		F7AD83AA1F82029000C67EA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AD83A81F82029000C67EA4 /* Main.storyboard */; };
+		F7AD83AD1F82029000C67EA4 /* OutLookCalc.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F7AD83AB1F82029000C67EA4 /* OutLookCalc.xcdatamodeld */; };
+		F7AD83AF1F82029000C67EA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7AD83AE1F82029000C67EA4 /* Assets.xcassets */; };
+		F7AD83B21F82029000C67EA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7AD83B01F82029000C67EA4 /* LaunchScreen.storyboard */; };
+		F7AD83BD1F82029000C67EA4 /* OutLookCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AD83BC1F82029000C67EA4 /* OutLookCalcTests.m */; };
+		F7AD83C81F82029000C67EA4 /* OutLookCalcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AD83C71F82029000C67EA4 /* OutLookCalcUITests.m */; };
+		F7AD83D71F8249EE00C67EA4 /* CalcSimpleCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AD83D61F8249EE00C67EA4 /* CalcSimpleCalendarViewController.m */; };
+		F7AD83ED1F82506E00C67EA4 /* OutLookCalendarViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AD83E61F82506E00C67EA4 /* OutLookCalendarViewCell.m */; };
+		F7AD83EE1F82506E00C67EA4 /* OutLookCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AD83E81F82506E00C67EA4 /* OutLookCalendarViewController.m */; };
+		F7AD83EF1F82506E00C67EA4 /* OutLookCalendarViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AD83EA1F82506E00C67EA4 /* OutLookCalendarViewFlowLayout.m */; };
+		F7AD83F01F82506E00C67EA4 /* OutLookCalendarViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = F7AD83EC1F82506E00C67EA4 /* OutLookCalendarViewHeader.m */; };
+		F7AD83F31F82511400C67EA4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AD83F21F82511400C67EA4 /* CoreGraphics.framework */; };
+		F7AD83F51F82511900C67EA4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AD83F41F82511900C67EA4 /* UIKit.framework */; };
+		F7AD83F71F82512000C67EA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7AD83F61F82512000C67EA4 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7AD83B91F82029000C67EA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7AD83941F82029000C67EA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7AD839B1F82029000C67EA4;
+			remoteInfo = OutLookCalc;
+		};
+		F7AD83C41F82029000C67EA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7AD83941F82029000C67EA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7AD839B1F82029000C67EA4;
+			remoteInfo = OutLookCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7AD839C1F82029000C67EA4 /* OutLookCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OutLookCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7AD83A01F82029000C67EA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7AD83A21F82029000C67EA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7AD83A31F82029000C67EA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7AD83A51F82029000C67EA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7AD83A61F82029000C67EA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7AD83A91F82029000C67EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7AD83AC1F82029000C67EA4 /* OutLookCalc.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OutLookCalc.xcdatamodel; sourceTree = "<group>"; };
+		F7AD83AE1F82029000C67EA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7AD83B11F82029000C67EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7AD83B31F82029000C67EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7AD83B81F82029000C67EA4 /* OutLookCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutLookCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7AD83BC1F82029000C67EA4 /* OutLookCalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OutLookCalcTests.m; sourceTree = "<group>"; };
+		F7AD83BE1F82029000C67EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7AD83C31F82029000C67EA4 /* OutLookCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OutLookCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7AD83C71F82029000C67EA4 /* OutLookCalcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OutLookCalcUITests.m; sourceTree = "<group>"; };
+		F7AD83C91F82029000C67EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7AD83D51F8249EE00C67EA4 /* CalcSimpleCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcSimpleCalendarViewController.h; sourceTree = "<group>"; };
+		F7AD83D61F8249EE00C67EA4 /* CalcSimpleCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcSimpleCalendarViewController.m; sourceTree = "<group>"; };
+		F7AD83E51F82506E00C67EA4 /* OutLookCalendarViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutLookCalendarViewCell.h; sourceTree = "<group>"; };
+		F7AD83E61F82506E00C67EA4 /* OutLookCalendarViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutLookCalendarViewCell.m; sourceTree = "<group>"; };
+		F7AD83E71F82506E00C67EA4 /* OutLookCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutLookCalendarViewController.h; sourceTree = "<group>"; };
+		F7AD83E81F82506E00C67EA4 /* OutLookCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutLookCalendarViewController.m; sourceTree = "<group>"; };
+		F7AD83E91F82506E00C67EA4 /* OutLookCalendarViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutLookCalendarViewFlowLayout.h; sourceTree = "<group>"; };
+		F7AD83EA1F82506E00C67EA4 /* OutLookCalendarViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutLookCalendarViewFlowLayout.m; sourceTree = "<group>"; };
+		F7AD83EB1F82506E00C67EA4 /* OutLookCalendarViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutLookCalendarViewHeader.h; sourceTree = "<group>"; };
+		F7AD83EC1F82506E00C67EA4 /* OutLookCalendarViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutLookCalendarViewHeader.m; sourceTree = "<group>"; };
+		F7AD83F21F82511400C67EA4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7AD83F41F82511900C67EA4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7AD83F61F82512000C67EA4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7AD83991F82029000C67EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AD83F71F82512000C67EA4 /* Foundation.framework in Frameworks */,
+				F7AD83F51F82511900C67EA4 /* UIKit.framework in Frameworks */,
+				F7AD83F31F82511400C67EA4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AD83B51F82029000C67EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AD83C01F82029000C67EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7AD83931F82029000C67EA4 = {
+			isa = PBXGroup;
+			children = (
+				F7AD839E1F82029000C67EA4 /* OutLookCalc */,
+				F7AD83BB1F82029000C67EA4 /* OutLookCalcTests */,
+				F7AD83C61F82029000C67EA4 /* OutLookCalcUITests */,
+				F7AD839D1F82029000C67EA4 /* Products */,
+				F7AD83F11F82511400C67EA4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7AD839D1F82029000C67EA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7AD839C1F82029000C67EA4 /* OutLookCalc.app */,
+				F7AD83B81F82029000C67EA4 /* OutLookCalcTests.xctest */,
+				F7AD83C31F82029000C67EA4 /* OutLookCalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7AD839E1F82029000C67EA4 /* OutLookCalc */ = {
+			isa = PBXGroup;
+			children = (
+				F7AD83D81F824F2800C67EA4 /* OutLookCalendar */,
+				F7AD83A21F82029000C67EA4 /* AppDelegate.h */,
+				F7AD83A31F82029000C67EA4 /* AppDelegate.m */,
+				F7AD83A51F82029000C67EA4 /* ViewController.h */,
+				F7AD83A61F82029000C67EA4 /* ViewController.m */,
+				F7AD83A81F82029000C67EA4 /* Main.storyboard */,
+				F7AD83AE1F82029000C67EA4 /* Assets.xcassets */,
+				F7AD83B01F82029000C67EA4 /* LaunchScreen.storyboard */,
+				F7AD83B31F82029000C67EA4 /* Info.plist */,
+				F7AD83AB1F82029000C67EA4 /* OutLookCalc.xcdatamodeld */,
+				F7AD839F1F82029000C67EA4 /* Supporting Files */,
+				F7AD83D51F8249EE00C67EA4 /* CalcSimpleCalendarViewController.h */,
+				F7AD83D61F8249EE00C67EA4 /* CalcSimpleCalendarViewController.m */,
+			);
+			path = OutLookCalc;
+			sourceTree = "<group>";
+		};
+		F7AD839F1F82029000C67EA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7AD83A01F82029000C67EA4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7AD83BB1F82029000C67EA4 /* OutLookCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7AD83BC1F82029000C67EA4 /* OutLookCalcTests.m */,
+				F7AD83BE1F82029000C67EA4 /* Info.plist */,
+			);
+			path = OutLookCalcTests;
+			sourceTree = "<group>";
+		};
+		F7AD83C61F82029000C67EA4 /* OutLookCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7AD83C71F82029000C67EA4 /* OutLookCalcUITests.m */,
+				F7AD83C91F82029000C67EA4 /* Info.plist */,
+			);
+			path = OutLookCalcUITests;
+			sourceTree = "<group>";
+		};
+		F7AD83D81F824F2800C67EA4 /* OutLookCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				F7AD83E51F82506E00C67EA4 /* OutLookCalendarViewCell.h */,
+				F7AD83E61F82506E00C67EA4 /* OutLookCalendarViewCell.m */,
+				F7AD83E71F82506E00C67EA4 /* OutLookCalendarViewController.h */,
+				F7AD83E81F82506E00C67EA4 /* OutLookCalendarViewController.m */,
+				F7AD83E91F82506E00C67EA4 /* OutLookCalendarViewFlowLayout.h */,
+				F7AD83EA1F82506E00C67EA4 /* OutLookCalendarViewFlowLayout.m */,
+				F7AD83EB1F82506E00C67EA4 /* OutLookCalendarViewHeader.h */,
+				F7AD83EC1F82506E00C67EA4 /* OutLookCalendarViewHeader.m */,
+			);
+			name = OutLookCalendar;
+			sourceTree = "<group>";
+		};
+		F7AD83F11F82511400C67EA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7AD83F61F82512000C67EA4 /* Foundation.framework */,
+				F7AD83F41F82511900C67EA4 /* UIKit.framework */,
+				F7AD83F21F82511400C67EA4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7AD839B1F82029000C67EA4 /* OutLookCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7AD83CC1F82029000C67EA4 /* Build configuration list for PBXNativeTarget "OutLookCalc" */;
+			buildPhases = (
+				F7AD83981F82029000C67EA4 /* Sources */,
+				F7AD83991F82029000C67EA4 /* Frameworks */,
+				F7AD839A1F82029000C67EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OutLookCalc;
+			productName = OutLookCalc;
+			productReference = F7AD839C1F82029000C67EA4 /* OutLookCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7AD83B71F82029000C67EA4 /* OutLookCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7AD83CF1F82029000C67EA4 /* Build configuration list for PBXNativeTarget "OutLookCalcTests" */;
+			buildPhases = (
+				F7AD83B41F82029000C67EA4 /* Sources */,
+				F7AD83B51F82029000C67EA4 /* Frameworks */,
+				F7AD83B61F82029000C67EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7AD83BA1F82029000C67EA4 /* PBXTargetDependency */,
+			);
+			name = OutLookCalcTests;
+			productName = OutLookCalcTests;
+			productReference = F7AD83B81F82029000C67EA4 /* OutLookCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7AD83C21F82029000C67EA4 /* OutLookCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7AD83D21F82029000C67EA4 /* Build configuration list for PBXNativeTarget "OutLookCalcUITests" */;
+			buildPhases = (
+				F7AD83BF1F82029000C67EA4 /* Sources */,
+				F7AD83C01F82029000C67EA4 /* Frameworks */,
+				F7AD83C11F82029000C67EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7AD83C51F82029000C67EA4 /* PBXTargetDependency */,
+			);
+			name = OutLookCalcUITests;
+			productName = OutLookCalcUITests;
+			productReference = F7AD83C31F82029000C67EA4 /* OutLookCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7AD83941F82029000C67EA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = microsoft;
+				TargetAttributes = {
+					F7AD839B1F82029000C67EA4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6PY83E3WZ6;
+						ProvisioningStyle = Automatic;
+					};
+					F7AD83B71F82029000C67EA4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6PY83E3WZ6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F7AD839B1F82029000C67EA4;
+					};
+					F7AD83C21F82029000C67EA4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6PY83E3WZ6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F7AD839B1F82029000C67EA4;
+					};
+				};
+			};
+			buildConfigurationList = F7AD83971F82029000C67EA4 /* Build configuration list for PBXProject "OutLookCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7AD83931F82029000C67EA4;
+			productRefGroup = F7AD839D1F82029000C67EA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7AD839B1F82029000C67EA4 /* OutLookCalc */,
+				F7AD83B71F82029000C67EA4 /* OutLookCalcTests */,
+				F7AD83C21F82029000C67EA4 /* OutLookCalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7AD839A1F82029000C67EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AD83B21F82029000C67EA4 /* LaunchScreen.storyboard in Resources */,
+				F7AD83AF1F82029000C67EA4 /* Assets.xcassets in Resources */,
+				F7AD83AA1F82029000C67EA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AD83B61F82029000C67EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AD83C11F82029000C67EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7AD83981F82029000C67EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AD83F01F82506E00C67EA4 /* OutLookCalendarViewHeader.m in Sources */,
+				F7AD83AD1F82029000C67EA4 /* OutLookCalc.xcdatamodeld in Sources */,
+				F7AD83A71F82029000C67EA4 /* ViewController.m in Sources */,
+				F7AD83EF1F82506E00C67EA4 /* OutLookCalendarViewFlowLayout.m in Sources */,
+				F7AD83ED1F82506E00C67EA4 /* OutLookCalendarViewCell.m in Sources */,
+				F7AD83EE1F82506E00C67EA4 /* OutLookCalendarViewController.m in Sources */,
+				F7AD83A41F82029000C67EA4 /* AppDelegate.m in Sources */,
+				F7AD83A11F82029000C67EA4 /* main.m in Sources */,
+				F7AD83D71F8249EE00C67EA4 /* CalcSimpleCalendarViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AD83B41F82029000C67EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AD83BD1F82029000C67EA4 /* OutLookCalcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AD83BF1F82029000C67EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AD83C81F82029000C67EA4 /* OutLookCalcUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7AD83BA1F82029000C67EA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7AD839B1F82029000C67EA4 /* OutLookCalc */;
+			targetProxy = F7AD83B91F82029000C67EA4 /* PBXContainerItemProxy */;
+		};
+		F7AD83C51F82029000C67EA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7AD839B1F82029000C67EA4 /* OutLookCalc */;
+			targetProxy = F7AD83C41F82029000C67EA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7AD83A81F82029000C67EA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7AD83A91F82029000C67EA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7AD83B01F82029000C67EA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7AD83B11F82029000C67EA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7AD83CA1F82029000C67EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7AD83CB1F82029000C67EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7AD83CD1F82029000C67EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6PY83E3WZ6;
+				INFOPLIST_FILE = OutLookCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = microsoft.OutLookCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7AD83CE1F82029000C67EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6PY83E3WZ6;
+				INFOPLIST_FILE = OutLookCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = microsoft.OutLookCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F7AD83D01F82029000C67EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6PY83E3WZ6;
+				INFOPLIST_FILE = OutLookCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = microsoft.OutLookCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OutLookCalc.app/OutLookCalc";
+			};
+			name = Debug;
+		};
+		F7AD83D11F82029000C67EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6PY83E3WZ6;
+				INFOPLIST_FILE = OutLookCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = microsoft.OutLookCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OutLookCalc.app/OutLookCalc";
+			};
+			name = Release;
+		};
+		F7AD83D31F82029000C67EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6PY83E3WZ6;
+				INFOPLIST_FILE = OutLookCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = microsoft.OutLookCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OutLookCalc;
+			};
+			name = Debug;
+		};
+		F7AD83D41F82029000C67EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6PY83E3WZ6;
+				INFOPLIST_FILE = OutLookCalcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = microsoft.OutLookCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OutLookCalc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7AD83971F82029000C67EA4 /* Build configuration list for PBXProject "OutLookCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AD83CA1F82029000C67EA4 /* Debug */,
+				F7AD83CB1F82029000C67EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7AD83CC1F82029000C67EA4 /* Build configuration list for PBXNativeTarget "OutLookCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AD83CD1F82029000C67EA4 /* Debug */,
+				F7AD83CE1F82029000C67EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7AD83CF1F82029000C67EA4 /* Build configuration list for PBXNativeTarget "OutLookCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AD83D01F82029000C67EA4 /* Debug */,
+				F7AD83D11F82029000C67EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7AD83D21F82029000C67EA4 /* Build configuration list for PBXNativeTarget "OutLookCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AD83D31F82029000C67EA4 /* Debug */,
+				F7AD83D41F82029000C67EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F7AD83AB1F82029000C67EA4 /* OutLookCalc.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F7AD83AC1F82029000C67EA4 /* OutLookCalc.xcdatamodel */,
+			);
+			currentVersion = F7AD83AC1F82029000C67EA4 /* OutLookCalc.xcdatamodel */;
+			path = OutLookCalc.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F7AD83941F82029000C67EA4 /* Project object */;
+}
